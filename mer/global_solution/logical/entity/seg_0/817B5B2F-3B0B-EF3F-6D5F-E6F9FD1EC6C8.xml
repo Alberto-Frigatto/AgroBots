@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="817B5B2F-3B0B-EF3F-6D5F-E6F9FD1EC6C8" name="T_AB_SERVICO">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:51:08 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_servico" id="8D65D723-AE5D-3941-5E93-70655B412211">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:51:23 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_servico" id="B2C9AC20-0D11-09C6-AE57-3CE3A69B4225">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:51:32 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_servico" id="6A895D51-0997-320F-451A-7A3A091C2627">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:51:48 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criacao" id="B25842AE-932C-834C-2CED-8AD38DA957BC">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:52:05 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_preco" id="7FDEE44D-5617-093A-33F2-5B56CD62F687">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:53:16 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_area_coberta" id="2D95DB8C-C79A-583C-5922-982105AFC720">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:00:53 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_itens_oferecidos" id="3EA22165-C453-FD6B-7AE4-2F0712DC8E29">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:54:26 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>47823B89-BECE-2D4A-B641-EE3BE6149078</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="950E6103-2903-5685-D6A7-8C3753D709F1" name="T_AB_SERVICO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:51:31 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8D65D723-AE5D-3941-5E93-70655B412211</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A038CE4-75C1-D255-5664-C2E9E459AFEB" name="T_AB_CONTRAT_BOT">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:21:41 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contrat_bot" id="CE667722-7AA8-7130-4E88-8A4231799A57">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:21:56 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contratacao" id="3104EF64-F7C6-1004-4D26-78B48266E6EE">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:25:04 UTC</createdTime>
+<generatorID>D0DD7CB8-339F-4B7A-4B2C-9106C7CCAF26</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>6A8ED246-0D21-9CD5-4A8B-6D9E14FEA2AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_agrobot" id="ACC638CB-9F96-1CBA-A310-3D58C03F8D3A">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:25:45 UTC</createdTime>
+<generatorID>F5B2C8A6-BEC4-AE22-ADA8-B3D2787BEF4F</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>CFF471AE-716C-E739-90F6-E56602DC85A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="13B57957-4498-553C-3946-41A703AF2600" name="T_AB_CONTRAT_BOT PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:23:53 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE667722-7AA8-7130-4E88-8A4231799A57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61B9FD31-FDFA-CFDC-0741-1080324CB660" name="T_AB_CARTAO_BANCARIO">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:52:21 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cartao" id="F328E755-B25A-C685-7BDB-BE95CA49DAAE">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:52:42 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="3A0E65D5-75BA-9084-31F3-B05E522A8E65">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:53:11 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cartao" id="7587F7DB-5476-2CA1-89DE-F7515FA18F58">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:55:17 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cartao" id="333ED80D-F676-50E1-ADD3-560C548FEB17">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:56:11 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="EC6AF8A7-7EA9-88A6-BE01-232BFA89B69B">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:57:41 UTC</createdTime>
+<generatorID>380B0B42-FAC5-8570-6EE7-CC41CA3BD6CA</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>089B0C66-747D-2464-5F15-B88AE1C0E11C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bandeira" id="5E6BA48E-23DC-ABE0-3209-5BFACE6993A0">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:59:48 UTC</createdTime>
+<generatorID>D4B974C0-CD93-FB2D-9817-FBF746F20810</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>FDE58B3E-C783-F3EB-0A6D-2FB2D4F9217C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_cartao" id="E2C498E1-B6C0-77B9-2238-9907D4CF1857">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 17:00:46 UTC</createdTime>
+<generatorID>D494D984-383F-6C23-A37A-1E68AAEC985B</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>B1917D32-9FFF-9009-3F8E-DB3423ED4BE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC394BD5-151D-42C9-10F3-F70A07EFB0B1" name="T_AB_CARTAO_BANCARIO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 16:53:01 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F328E755-B25A-C685-7BDB-BE95CA49DAAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

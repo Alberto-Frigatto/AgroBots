@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertencer" directorySegmentName="seg_0" id="E1566CD0-35F4-19F9-7BBD-A475C3954EC2">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:35:53 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<sourcePk>654BBA70-2C00-09FD-F701-CF8F23EB0406</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D7C85A01-3973-7876-B2AD-3058A75D8428</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE272349-3705-46A8-0E33-767440D3F4A4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

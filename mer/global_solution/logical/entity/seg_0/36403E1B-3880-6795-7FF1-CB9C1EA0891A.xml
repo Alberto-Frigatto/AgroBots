@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36403E1B-3880-6795-7FF1-CB9C1EA0891A" name="T_AB_CONTRATACAO_SERVICO">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:58:11 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contratacao" id="6A8ED246-0D21-9CD5-4A8B-6D9E14FEA2AE">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:58:24 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_contratacao" id="C2541E64-E468-0F8E-F6C8-67D863209856">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:59:06 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_servico" id="F00AF166-5302-9422-18B5-04B4F0EF8A78">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:02:06 UTC</createdTime>
+<generatorID>E04A21E2-158B-9641-4CD1-0A7222DDE846</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>8D65D723-AE5D-3941-5E93-70655B412211</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="9D7C48C9-3519-F088-3CA6-9A687C0F68F3">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:02:26 UTC</createdTime>
+<generatorID>0D264E66-8FCE-EAAC-0E07-037726557B7C</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>089B0C66-747D-2464-5F15-B88AE1C0E11C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_status_contrat" id="DA379107-05A6-DF49-40DF-605AF0B1AC8E">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:28:27 UTC</createdTime>
+<generatorID>D05FEB93-94CC-3B0B-BE45-ACD778E86FD3</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>B76E682A-3B6A-38A9-D3B9-FC24FBBB8FA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DBE4072-3C1F-9B88-3AF2-4235FC5BC6E9" name="T_AB_CONTRATACAO_SERVICO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:59:05 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A8ED246-0D21-9CD5-4A8B-6D9E14FEA2AE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

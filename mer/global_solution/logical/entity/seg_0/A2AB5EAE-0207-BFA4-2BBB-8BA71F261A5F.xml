@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2AB5EAE-0207-BFA4-2BBB-8BA71F261A5F" name="T_AB_AVALIACAO_CONTRATACAO">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:12:09 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_avaliacao" id="C9ADFE02-BF3B-28C5-BE6A-28620D75E2FC">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:12:20 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_avaliacao" id="4CDE81CD-3657-A77F-8FC3-5EFDB85AFEF9">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:12:40 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_avaliacao" id="B81903ED-6719-F0F5-E270-309ECCF7197B">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:13:23 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contratacao" id="031FCB1C-B76E-74D1-26E4-177A370CA91F">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:14:44 UTC</createdTime>
+<generatorID>CEEB6730-FCA0-6ED4-F971-B57703F536FE</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>6A8ED246-0D21-9CD5-4A8B-6D9E14FEA2AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_avaliacao" id="93118F82-911B-8F8E-0EFC-EA3CF33662F1">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:16:23 UTC</createdTime>
+<generatorID>4BB67899-62A3-F0FC-598F-9FBCC6ACB530</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>F5CE4F62-4165-12F9-ED6B-C6F949D26951</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BED1A04A-3369-7697-564C-3FF1D554C2E9" name="T_AB_AVALIACAO_CONTRATACAO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:12:39 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9ADFE02-BF3B-28C5-BE6A-28620D75E2FC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

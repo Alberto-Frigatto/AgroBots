@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="322C11D8-BC34-7FE6-48E4-DF418EF1B565" name="T_AB_PAGAMENTO_SERVICO">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:03:14 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pagamento" id="AEF6D1A8-BFC2-2E70-1EAD-52289CCE28A7">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:03:25 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pagamento" id="A5644E87-D48D-4696-A69A-81A0E5C47C66">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:04:31 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="9C97997F-997A-947F-E5DE-5C38738A57D8">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:05:51 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_pagamento" id="0C835DDE-0C3F-CEC9-6F23-99325A2709D9">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:04:55 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_juros" id="0B728D55-529C-4A1B-8A79-1C4599313596">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:05:06 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_servico" id="022476F2-B302-98CB-5291-DF3457B45187">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:06:29 UTC</createdTime>
+<generatorID>6BDEF3D0-F7FD-847B-DC7E-7800D05927F4</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>8D65D723-AE5D-3941-5E93-70655B412211</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contratacao" id="5DAC870E-1196-4B84-8788-A6AB191CDCC1">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:08:08 UTC</createdTime>
+<generatorID>FEB7BE77-D24D-746A-1262-42D72F582060</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>6A8ED246-0D21-9CD5-4A8B-6D9E14FEA2AE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_pagamento" id="F9BACA2B-8A67-1E8F-59F0-F21CD6BEE01E">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 18:32:31 UTC</createdTime>
+<generatorID>D7C3692B-BBA9-2B32-D63F-4597101DCF8A</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>AC9741A7-C5AB-7A87-09BB-4DEF12B07774</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cartao" id="B9956241-00BF-74AC-451B-B9D432FF0A45">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-01 18:32:50 UTC</createdTime>
+<generatorID>235CA0CA-CDB0-14EC-4475-D93B3850EF90</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F328E755-B25A-C685-7BDB-BE95CA49DAAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4F7D891-12FA-4AB1-5ACC-C666A89CD032" name="T_AB_PAGAMENTO_SERVICO PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 01:04:16 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEF6D1A8-BFC2-2E70-1EAD-52289CCE28A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

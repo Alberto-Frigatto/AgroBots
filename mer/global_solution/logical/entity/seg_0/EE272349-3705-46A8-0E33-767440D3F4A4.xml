@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE272349-3705-46A8-0E33-767440D3F4A4" name="T_AB_ENDERECO_PROD_AGR">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:35:22 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cnpj" id="A439DCA9-A6A1-4401-3F5A-81F840AB8FF7">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:35:46 UTC</createdTime>
+<generatorID>CF0FC296-0FC6-0935-3F1B-EAD425BD7CFB</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>089B0C66-747D-2464-5F15-B88AE1C0E11C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_endereco" id="2740DFA7-F4AE-877A-6C5D-2D042A15A8DE">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:35:53 UTC</createdTime>
+<generatorID>E1566CD0-35F4-19F9-7BBD-A475C3954EC2</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>33181709-5448-74C7-78CE-CBC2A2E43F33</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="65C0A76F-7704-B799-60DA-38E5F82F08F7" name="T_AB_ENDERECO_PROD_AGR PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:35:46 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A439DCA9-A6A1-4401-3F5A-81F840AB8FF7</attributeRef>
+<attributeRef>2740DFA7-F4AE-877A-6C5D-2D042A15A8DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

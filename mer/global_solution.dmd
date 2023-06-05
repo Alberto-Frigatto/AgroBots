@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="global_solution" id="3BF2879D-A4B8-5A63-2226-3BCF414C088A" version="3.5">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:29:24 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3BF2879D-A4B8-5A63-2226-3BCF414C088A</designId>
+</OSDM_Design>

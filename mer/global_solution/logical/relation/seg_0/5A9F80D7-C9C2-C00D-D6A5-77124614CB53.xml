@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possuirv15" directorySegmentName="seg_0" id="5A9F80D7-C9C2-C00D-D6A5-77124614CB53">
+<createdBy>alber</createdBy>
+<createdTime>2023-06-02 01:18:59 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<sourcePk>C99ECA1E-5410-9ABD-4A75-82CB70797B3C</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B2DFEDE1-8C81-D0D7-5076-79977736614E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AD7C6E2-70A3-0AE1-5F0F-22669A25E61B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

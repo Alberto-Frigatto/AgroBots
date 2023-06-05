@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01EE284A-4AC6-043B-3613-A53C0BB96B6D" name="T_AB_TEL_PROD_AGR">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:49:17 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cnpj" id="5005DE14-7B1E-5FD0-5F99-83E19FFCA2CD">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:50:00 UTC</createdTime>
+<generatorID>AC33859E-9156-F26F-07EB-3AC72822D29C</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>089B0C66-747D-2464-5F15-B88AE1C0E11C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_telefone" id="1F25011E-FD45-48E8-F42B-7B4651CB9387">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:50:18 UTC</createdTime>
+<generatorID>79ACD5BE-5A54-0A5E-11F0-3B01F802D9E3</generatorID>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<referedAttribute>A5158F8E-1E1B-ECDD-85BA-ECA266CE7D97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="040CBFF7-5154-C03D-D2AF-7149CC0EA6C3" name="T_AB_TEL_PROD_AGR PK">
+<createdBy>alber</createdBy>
+<createdTime>2023-05-30 00:50:00 UTC</createdTime>
+<ownerDesignName>global_solution</ownerDesignName>
+<engineerTo>
+<item key="C8C577F5-4C8E-F966-ABAC-348619EE9673" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5005DE14-7B1E-5FD0-5F99-83E19FFCA2CD</attributeRef>
+<attributeRef>1F25011E-FD45-48E8-F42B-7B4651CB9387</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
